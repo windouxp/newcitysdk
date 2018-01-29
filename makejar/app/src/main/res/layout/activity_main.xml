@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testdemo.com.makejar.MainActivity">
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="蓝牙sdk测试步骤1.2.3.4,1输入设备号，查询回的数据保存，供步骤2调用。步骤三查询数据，供步骤4调用 " />
+    <EditText
+        android:id="@+id/mCodeEt"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/conn_btn1"
+        android:textColor="#000"
+        android:text="1.查询设备"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/conn_btn2"
+        android:textColor="#000"
+        android:text="2.下发运单"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/conn_btn3"
+        android:textColor="#000"
+        android:text="3.签收查询"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/conn_btn4"
+        android:textColor="#000"
+        android:text="4.获取数据，下发签收"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+</LinearLayout>
